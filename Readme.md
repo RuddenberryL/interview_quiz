@@ -11,8 +11,8 @@
 两位拔河选手参加一个轮流拔河对决，比赛规则如下: \
 1. 比赛开始时，标记置于绳子的正中间，标记为0点 
 2. 两位选手依次向自己方向拉动绳子，为方便说明，规定左边选手拉动绳子的距离a标记为-a, 右边选手拉动的距离b标记为+b 
-3. a, b 满足以下条件:<img src="https://render.githubusercontent.com/render/math?math=a,b \sim N(0,1)"> 
-4. 首先拔过<img src="https://render.githubusercontent.com/render/math?math=\frac{1}{2}">则右边选手获胜; 反之，首先拔过<img src="https://render.githubusercontent.com/render/math?math=-\frac{1}{2}">左边选手获胜
+3. a, b 满足以下条件: a, b~N(0,1)
+4. 首先拔过+1/2则右边选手获胜; 反之，首先拔过-1/2左边选手获胜
 
 比赛组织者发现: 这种规则下先拔的选手会获得一定的优势，为保证公平，必须给后发选手一定的补偿以保证比赛公平。请问中间标记需要向后发选手移动多少距离才能保证比赛的绝对公平? 
 
